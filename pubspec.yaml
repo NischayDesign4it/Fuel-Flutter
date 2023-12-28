@@ -1,0 +1,51 @@
+name: nischay_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.1.1
+  flutter_launcher_icons: ^0.13.1
+  fluttertoast: ^8.2.1
+  http: any
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  provider: ^6.1.1
+  wave: ^0.2.2
+  animations: ^2.0.10
+
+
+
+
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter_icon:
+  android: true
+  ios: true
+  image_path: "assets/ic_launcher.png"
+
+
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
